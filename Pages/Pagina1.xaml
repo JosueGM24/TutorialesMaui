@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Presentación"
+             x:Class="TutorialesMaui.Pages.Pagina1">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="50"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="me.jpeg"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center"/>
+
+            <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+                VerticalOptions="Center">
+
+                <Label
+                Text="Nombre: Pineda Bautista Karen Pamela"
+                FontSize="27" 
+                FontFamily="Poppins Light"
+                TextColor="#5B2C6F"/>
+
+                <Label
+                Text="Cargo: Estudiante"
+                FontSize="22"
+                FontFamily="Poppins Light"
+                TextColor="#C39BD3"/>
+
+            </VerticalStackLayout>
+
+            <VerticalStackLayout
+             Spacing="0"
+                Padding="30,0"
+                VerticalOptions="Center">
+
+                <Label
+                Text="Edad: 20 años"
+                FontSize="21"
+                FontFamily="Poppins Light" />
+                <Label
+                Text="Carrera: Ingenieria en Sistemas Computacionales"
+                FontSize="21"
+                FontFamily="Poppins Light" />
+                <Label
+                Text="Universidad: Bancaria"
+                FontSize="21"
+                FontFamily="Poppins Light" />
+                
+            </VerticalStackLayout>
+            <Button
+                x:Name="CounterBtn"
+                Text="Enviar información"
+                HorizontalOptions="Center" 
+                BackgroundColor="#633974"
+                FontFamily="Poppins Light" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TutorialesMaui.Pages.Pagina3"
+             Title="Layout y Frames"
+             BackgroundImageSource="desca.jpg"
+             HeightRequest="750"
+             WidthRequest="500">
+    <ScrollView>
+        <VerticalStackLayout>
+            <VerticalStackLayout
+                HorizontalOptions="Center"
+                 Margin="0,10,0,0">
+                <Frame 
+                       HeightRequest="150"
+                       WidthRequest="150"
+                       HorizontalOptions="Center"
+                       Padding="0"
+                       CornerRadius="180">
+                    <Image Source="cuadra.jpeg"
+                           Aspect="AspectFill" />
+                </Frame>
+                <Label
+                    Text="Ing. Pineda Bautista Karen Pamela"
+                    TextColor="Black"
+                    FontSize="20"
+                    FontFamily="Comfortaa"
+                    HorizontalOptions="Center"
+                    Margin="10,30,0,0"/>
+
+
+                <Label
+                    Text="Web Development, Junior"
+                    FontSize="23"
+                    FontFamily="Darker Grotesque"
+                    HorizontalOptions="Center"
+                    Margin="10,0,0,0"/>
+                <Label
+                    Text="Bachillerato: Isidro Fabela - Tic's"
+                    FontSize="15"
+                    FontFamily="Comfortaa"
+                    Margin="30,25,0,0"/>
+
+                <Label
+                    Text="Universidad: UBAM - Ing. Sitemas Computacionales"
+                    FontSize="15"
+                    FontFamily="Comfortaa"
+                    Margin="30,5,0,0"/>
+
+                <Label
+                    Text="Teconlogías: Java, C#, PHP, "
+                    FontSize="15"
+                    FontFamily="Comfortaa"
+                    Margin="30,5,0,0"/>
+
+                <HorizontalStackLayout
+                    HorizontalOptions="Center"
+                    Padding="30">
+
+
+                    <Frame BorderColor="White"
+                           Padding="0"
+                           Margin="0,0,5,0"
+                           HeightRequest="90"
+                           WidthRequest="90">
+                        <Image Source="java.png"
+                           Margin="0"
+                           Aspect="AspectFill"/>
+
+                    </Frame>
+
+                    <Frame BorderColor="White"
+                           Padding="0"
+                           Margin="10,0,15,0"
+                           HeightRequest="90"
+                           WidthRequest="90">
+                        <Image Source="php.png"
+                           Margin="0"
+                           Aspect="AspectFill"/>
+
+                    </Frame>
+
+                    <Frame BorderColor="White"
+                            Padding="0"
+                            Margin="10,0,29,0"
+                            HeightRequest="70"
+                            WidthRequest="62">
+                        <Image Source="si.png"
+                            Margin="0"
+                            Aspect="AspectFill"/>
+
+                    </Frame>
+
+
+                </HorizontalStackLayout>
+
+                     <Label
+                            Text="---- Cursos ----"
+                            FontSize="25"
+                            Margin="10,0,0,0"
+                        HorizontalOptions="Center"
+                            FontFamily="Darker Grotesque"
+                        Padding="7"
+                        />
+                     <Label Text="Udemy" 
+                           TextColor="Black" 
+                           Margin="10,0,0,0" 
+                           FontFamily="Comfortaa"
+                           FontSize="15"
+                           HorizontalOptions="Center"
+                           Padding="7"/>
+
+                
+                <HorizontalStackLayout
+                        HorizontalOptions="Center"
+                        Padding="10">
+                    <Frame BorderColor="White"
+                            Padding="0"
+                            Margin="0,0,5,0"
+                            HeightRequest="80"
+                            WidthRequest="80">
+                        <Image Source="udemy.png"
+                            Margin="0"
+                            Aspect="AspectFill"/>
+                    </Frame>
+                </HorizontalStackLayout>
+
+                        <Label
+                            Text="Tel. 5626164403"
+                            HorizontalOptions="Center"
+                            TextColor="#4E4D4F"
+                            Padding="10"
+                            Margin="0,20,0,0" 
+                           FontFamily="Comfortaa"/>
+                        <Label
+                            Text="pinedapamela53@gmail.com"
+                            HorizontalOptions="Center"
+                            TextColor="#4E4D4F"
+                            FontFamily="Comfortaa"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

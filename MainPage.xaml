@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TutorialesMaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center"
+            WidthRequest="300"
+            HorizontalOptions="CenterAndExpand">
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                FontFamily="Poppins"
+                FontSize="30"
+                Text="Inicia sesión"/>
+            <Entry
+                Placeholder="@"
+                FontFamily="Poppins"
+                BackgroundColor="#F1F1F1"
+                TextColor="Black"
+                HorizontalTextAlignment="Center"
+                x:Name="userEntry"/>
+            <Entry
+                HorizontalTextAlignment="Center"
+                Placeholder="···"
+                FontFamily="Poppins"
+                BackgroundColor="#F1F1F1"
+                IsPassword="True"
+                TextColor="Black"
+                VerticalTextAlignment="Center"
+                x:Name="passwordEntry"/>
+            <HorizontalStackLayout
+                Spacing="20"
+                HorizontalOptions="CenterAndExpand">
+                <Button
+                x:Name="LoginBtn"
+                Text="Log in"
+                TextColor="Black"
+                FontFamily="Poppins"
+                FontAttributes="Bold"
+                FontSize="17"
+                Padding="28,8"
+                BackgroundColor="#C4DBDE"
+                Clicked="LoginBtn_Clicked"
+                HorizontalOptions="Center" />
+                <Button
+                x:Name="SignUpBtn"
+                Text="Sign up"
+                TextColor="White"
+                FontFamily="Poppins"
+                FontAttributes="Bold"
+                FontSize="17"
+                Padding="28,8"
+                BackgroundColor="#45696D"
+                    Clicked="SignUpBtn_Clicked"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+            
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
